@@ -1,17 +1,39 @@
 #' Yes No
 #'
-#' Asks a custom yes-no question with variable responses.
+#' Asks a custom yes-no question with randomly varying responses.
+#' Returns a flag indicating whether the user answered yes or no.
 #'
-#' @param question A string of the question to ask.
+#' The objects are first pasted without separators
+#' and collapsed using \code{\link{paste0}(..., collapse = "")}
+#' before being output using \code{\link{cat}}.
+#'
+#' The order and phrasing of the possible responses varies randomly to ensure
+#' the user consciously chooses (as opposed to automatically types their response).
+#'
+#' A total of three responses are offered - two of which correspond to No and
+#' one of which corresponds to Yes.
+#' The possible responses are skewed to No to reduce the chances that a blindly-typing
+#' user mistakenly chooses an affirmative action.
+#' For the same reason, selection of uncertain responses such as 'Uhhh... Maybe?'
+#' is considered to be a No.
+#' Selection of a 0 (to exit) is also considered to be No.
+#' Questions should be phrased accordingly.
+#'
+#' @param ... R Objects to paste and then output to produce the question.
 #' @return A flag indicating whether the user answered yes or no.
 #' @export
-yesno <- function(question) {
-  check_string(question)
+#' @examples
+#'\dontrun{
+#' yesno("Do you like ", R.Version()$nickname ,"?")
+#'}
+yesno <- function(...) {
   yeses <- c("Yes", "Definitely", "For sure", "Yup", "Yeah",
              "I agree", "Absolutely")
   nos <- c("No way", "Not yet", "I forget", "No", "Nope", "Uhhhh... Maybe?")
-  cat(question)
+
   qs <- c(sample(yeses, 1), sample(nos, 2))
   rand <- sample(length(qs))
+
+  cat(paste0(..., collapse = ""))
   menu(qs[rand]) == which(rand == 1)
 }

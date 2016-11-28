@@ -49,4 +49,4 @@ For more information install and load the `yesno` package and type `?yesno`.
 Inspiration
 -----------
 
--   Internal `yesno()` function from [devtools](https://github.com/hadley/devtools).
+-   The single function is the internal `yesno()` function from [devtools](https://github.com/hadley/devtools) (modified to return TRUE if the user answers yes).

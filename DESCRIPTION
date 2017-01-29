@@ -10,7 +10,7 @@ Description: Asks a custom Yes-No question with variable responses.
     (modified to return TRUE if the user answers yes).
 License: GPL (>= 2)
 Depends:
-    R (>= 3.3.1)
+    R (>= 3.3.0)
 Imports:
     utils
 Suggests:

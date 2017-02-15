@@ -38,4 +38,3 @@ Questions should be phrased accordingly.
 yesno("Do you like ", R.Version()$nickname ,"?")
 }
 }
-

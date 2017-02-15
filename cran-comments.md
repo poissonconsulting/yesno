@@ -8,16 +8,10 @@
 
 0 errors | 0 warnings | 1 note
 
-NOTE
+* checking CRAN incoming feasibility ... NOTE
 Maintainer: ‘Joe Thorley <joe@poissonconsulting.ca>’
 
 New submission
-
-Possibly mis-spelled words in DESCRIPTION:
-  devtools (9:61)
-  yesno (9:41)
-  
-*These words are spelt correctly.*
 
 ## Reverse dependencies
 

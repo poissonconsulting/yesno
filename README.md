@@ -54,4 +54,4 @@ Please note that this project is released with a [Contributor Code of Conduct](C
 Inspiration
 -----------
 
--   The single function is the internal `yesno()` function from [devtools](https://github.com/hadley/devtools) (modified to return TRUE if the user answers yes).
+-   The single function is based on the internal `yesno()` function from [devtools](https://github.com/hadley/devtools) (modified to return TRUE if the user answers yes).

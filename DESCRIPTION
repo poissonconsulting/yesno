@@ -5,9 +5,9 @@ Date: 2017-02-15
 Authors@R: c(
     person("Hadley", "Wickham", email = "hadley@rstudio.com", role = "aut"),
     person("Joe", "Thorley", email = "joe@poissonconsulting.ca", role = c("com", "cre")))
-Description: Asks a custom Yes-No question with variable responses. 
-    The single function is the internal yesno function from devtools 
-    (modified to return TRUE if the user answers yes).
+Description: Asks a custom Yes-No question with variable responses.
+    The order and phrasing of the possible responses varies randomly 
+    to ensure the user consciously chooses (as opposed to automatically types their response).
 License: GPL (>= 2)
 Depends:
     R (>= 3.3.0)

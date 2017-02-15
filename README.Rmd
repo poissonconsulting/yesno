@@ -65,4 +65,4 @@ By participating in this project you agree to abide by its terms.
 
 ## Inspiration
 
-- The single function is the internal `yesno()` function from [devtools](https://github.com/hadley/devtools) (modified to return TRUE if the user answers yes).
+- The single function is based on the internal `yesno()` function from [devtools](https://github.com/hadley/devtools) (modified to return TRUE if the user answers yes).

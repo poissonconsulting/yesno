@@ -1,6 +1,6 @@
 Package: yesno
 Title: Ask a Custom Yes-No Question
-Version: 0.0.2
+Version: 0.0.2.9000
 Date: 2017-02-15
 Authors@R: c(
     person("Hadley", "Wickham", email = "hadley@rstudio.com", role = "aut"),

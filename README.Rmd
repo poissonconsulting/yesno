@@ -24,9 +24,15 @@ knitr::opts_chunk$set(
 
 ## Introduction
 
-Provides a single function `yesno()` which asks a custom yes-no question with variable responses.
+Provides two functions. 
+
+The first, `yesno()`, asks a custom yes-no question with three variable responses.
 
 The order and phrasing of the possible responses varies randomly to ensure the user consciously chooses (as opposed to automatically types their response).
+
+The second, `yesno2()`, ask a custom yes-no question with two fixed responses.
+
+It is designed to be used in situations where a user needs to choose one of two options both of which have consequences.
 
 ## Demonstration
 
@@ -48,6 +54,14 @@ Do you like Bug in Your Hair?
 
 Selection: 2
 [1] FALSE
+
+> yesno2("Do you like this question?")
+Do you like this question?
+1: Yes
+2: No
+
+Selection: 1
+[1] TRUE
 ```
 
 ## Installation

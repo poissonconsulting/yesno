@@ -7,7 +7,7 @@
 yesno(...)
 }
 \arguments{
-\item{...}{R Objects to paste and then output to produce the question.}
+\item{...}{Objects to paste and then output to produce the question.}
 }
 \value{
 A flag indicating whether the user answered yes or no.
@@ -15,6 +15,8 @@ A flag indicating whether the user answered yes or no.
 \description{
 Asks a custom yes-no question with randomly varying responses.
 Returns a flag indicating whether the user answered yes or no.
+It is designed to be used in situations where the users needs to confirm
+an affirmative action.
 }
 \details{
 The objects are first pasted without separators
@@ -37,4 +39,7 @@ Questions should be phrased accordingly.
 \dontrun{
 yesno("Do you like ", R.Version()$nickname ,"?")
 }
+}
+\seealso{
+\code{\link{yesno2}}
 }

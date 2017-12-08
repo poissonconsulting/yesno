@@ -1,3 +1,5 @@
+- Added `yesno2` function to provide two fixed responses.
+
 # yesno v0.0.2
 
 - Replaced `yesno` function's `string` argument with `...` to allow it to take variable arguments.

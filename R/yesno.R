@@ -2,6 +2,8 @@
 #'
 #' Asks a custom yes-no question with randomly varying responses.
 #' Returns a flag indicating whether the user answered yes or no.
+#' It is designed to be used in situations where the users needs to confirm
+#' an affirmative action.
 #'
 #' The objects are first pasted without separators
 #' and collapsed using \code{\link{paste0}(..., collapse = "")}
@@ -19,8 +21,9 @@
 #' Selection of a 0 (to exit) is also considered to be No.
 #' Questions should be phrased accordingly.
 #'
-#' @param ... R Objects to paste and then output to produce the question.
+#' @param ... Objects to paste and then output to produce the question.
 #' @return A flag indicating whether the user answered yes or no.
+#' @seealso \code{\link{yesno2}}
 #' @export
 #' @examples
 #'\dontrun{

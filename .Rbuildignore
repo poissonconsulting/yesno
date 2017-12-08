@@ -7,3 +7,5 @@
 ^codecov\.yml$
 ^CONDUCT\.md$
 ^cran-comments\.md$
+^docs$
+^document.R$

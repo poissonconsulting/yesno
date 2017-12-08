@@ -1,13 +1,11 @@
 Package: yesno
-Title: Ask a Custom Yes-No Question
-Version: 0.0.2.9001
-Date: 2017-04-19
+Title: Ask Custom Yes-No Questions
+Version: 0.0.2.9002
+Date: 2017-12-08
 Authors@R: c(
     person("Hadley", "Wickham", email = "hadley@rstudio.com", role = "aut"),
     person("Joe", "Thorley", email = "joe@poissonconsulting.ca", role = c("com", "cre")))
-Description: Asks a custom Yes-No question with variable responses.
-    The order and phrasing of the possible responses varies randomly 
-    to ensure the user consciously chooses (as opposed to automatically types their response).
+Description: Asks custom Yes-No questions with variable or fixed responses.
 License: GPL (>= 2)
 Depends:
     R (>= 3.3.0)

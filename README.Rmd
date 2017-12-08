@@ -12,7 +12,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-![stability-stable](https://img.shields.io/badge/stability-stable-green.svg)
+[![stability-stable](https://img.shields.io/badge/stability-stable-green.svg)](https://github.com/joethorley/stability-badges#stable)
 [![Travis-CI Build Status](https://travis-ci.org/poissonconsulting/yesno.svg?branch=master)](https://travis-ci.org/poissonconsulting/yesno)
 [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/poissonconsulting/yesno?branch=master&svg=true)](https://ci.appveyor.com/project/poissonconsulting/yesno)
 [![codecov](https://codecov.io/gh/poissonconsulting/yesno/branch/master/graph/badge.svg)](https://codecov.io/gh/poissonconsulting/yesno)
@@ -76,10 +76,12 @@ To install the developmental version from GitHub
 # install.packages("devtools")
 devtools::install_github("poissonconsulting/yesno")
 ```
-
-## Information
-
-For more information install and load the `yesno` package and type `?yesno`.
+or alternatively install (and update) from the Poisson R Archive Site ([PoisRAS](https://github.com/poissonconsulting/drat))
+```
+# install.packages("drat")
+drat::addRepo("poissonconsulting")
+install.packages("yesno")
+```
 
 ## Contribution
 
@@ -88,4 +90,4 @@ By participating in this project you agree to abide by its terms.
 
 ## Inspiration
 
-- The single function is based on the internal `yesno()` function from [devtools](https://github.com/hadley/devtools) (modified to return TRUE if the user answers yes).
+- The `yesno()` function is based on the internal function with the same name from [devtools](https://github.com/hadley/devtools) (modified to return TRUE if the user answers yes).

@@ -58,7 +58,7 @@
     
 <div class="contents">
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-<p><img src="https://img.shields.io/badge/stability-stable-green.svg" alt="stability-stable"><a href="https://travis-ci.org/poissonconsulting/yesno"><img src="https://travis-ci.org/poissonconsulting/yesno.svg?branch=master" alt="Travis-CI Build Status"></a> <a href="https://ci.appveyor.com/project/poissonconsulting/yesno"><img src="https://ci.appveyor.com/api/projects/status/github/poissonconsulting/yesno?branch=master&amp;svg=true" alt="AppVeyor Build Status"></a> <a href="https://codecov.io/gh/poissonconsulting/yesno"><img src="https://codecov.io/gh/poissonconsulting/yesno/branch/master/graph/badge.svg" alt="codecov"></a> <a href="https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html"><img src="https://img.shields.io/badge/License-GPL2-blue.svg" alt="License: GPL2"></a> <a href="https://cran.r-project.org/package=yesno"><img src="http://www.r-pkg.org/badges/version/yesno" alt="CRAN_Status_Badge"></a> <a href="https://cran.r-project.org/package=yesno"><img src="http://cranlogs.r-pkg.org/badges/grand-total/yesno" alt="CRAN Downloads"></a></p>
+
 <section id="yesno" class="level1"><div class="page-header"><h1>yesno</h1></div>
 <section id="introduction" class="level2"><h2>Introduction</h2>
 <p>Provides two functions.</p>
@@ -98,13 +98,15 @@ Selection: 1
 <p>To install the developmental version from GitHub</p>
 <pre><code><a href="http://www.rdocumentation.org/packages/devtools/topics/install_github"># install.packages("devtools")
 devtools::install_github("poissonconsulting/yesno")</a></code></pre>
-</section><section id="information" class="level2"><h2>Information</h2>
-<p>For more information install and load the <code>yesno</code> package and type <code><a href="reference/yesno.html">?yesno</a></code>.</p>
+<p>or alternatively install (and update) from the Poisson R Archive Site (<a href="https://github.com/poissonconsulting/drat">PoisRAS</a>)</p>
+<pre><code><a href="http://www.rdocumentation.org/packages/drat/topics/addRepo"># install.packages("drat")
+drat::addRepo("poissonconsulting")
+install.packages("yesno")</a></code></pre>
 </section><section id="contribution" class="level2"><h2>Contribution</h2>
 <p>Please note that this project is released with a <a href="CONDUCT.md">Contributor Code of Conduct</a>. By participating in this project you agree to abide by its terms.</p>
 </section><section id="inspiration" class="level2"><h2>Inspiration</h2>
 <ul>
-<li>The single function is based on the internal <code><a href="reference/yesno.html">yesno()</a></code> function from <a href="https://github.com/hadley/devtools">devtools</a> (modified to return TRUE if the user answers yes).</li>
+<li>The <code><a href="reference/yesno.html">yesno()</a></code> function is based on the internal function with the same name from <a href="https://github.com/hadley/devtools">devtools</a> (modified to return TRUE if the user answers yes).</li>
 </ul></section></section>
 </div>
   </div>
@@ -123,6 +125,16 @@ devtools::install_github("poissonconsulting/yesno")</a></code></pre>
 <li>
 <a href="http://hadley.nz">Hadley Wickham</a> <br><small class="roles"> Author </small> </li>
 <li>Joe Thorley <br><small class="roles"> Compiler, maintainer </small> </li>
+</ul>
+<h2>Dev status</h2>
+<ul class="list-unstyled">
+<li><a href="https://github.com/joethorley/stability-badges#stable"><img src="https://img.shields.io/badge/stability-stable-green.svg" alt="stability-stable"></a></li>
+<li><a href="https://travis-ci.org/poissonconsulting/yesno"><img src="https://travis-ci.org/poissonconsulting/yesno.svg?branch=master" alt="Travis-CI Build Status"></a></li>
+<li><a href="https://ci.appveyor.com/project/poissonconsulting/yesno"><img src="https://ci.appveyor.com/api/projects/status/github/poissonconsulting/yesno?branch=master&amp;svg=true" alt="AppVeyor Build Status"></a></li>
+<li><a href="https://codecov.io/gh/poissonconsulting/yesno"><img src="https://codecov.io/gh/poissonconsulting/yesno/branch/master/graph/badge.svg" alt="codecov"></a></li>
+<li><a href="https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html"><img src="https://img.shields.io/badge/License-GPL2-blue.svg" alt="License: GPL2"></a></li>
+<li><a href="https://cran.r-project.org/package=yesno"><img src="http://www.r-pkg.org/badges/version/yesno" alt="CRAN_Status_Badge"></a></li>
+<li><a href="https://cran.r-project.org/package=yesno"><img src="http://cranlogs.r-pkg.org/badges/grand-total/yesno" alt="CRAN Downloads"></a></li>
 </ul>
 </div>
 

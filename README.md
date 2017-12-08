@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-![stability-stable](https://img.shields.io/badge/stability-stable-green.svg)
+[![stability-stable](https://img.shields.io/badge/stability-stable-green.svg)](https://github.com/joethorley/stability-badges#stable)
 [![Travis-CI Build
 Status](https://travis-ci.org/poissonconsulting/yesno.svg?branch=master)](https://travis-ci.org/poissonconsulting/yesno)
 [![AppVeyor Build
@@ -71,10 +71,12 @@ To install the developmental version from GitHub
     # install.packages("devtools")
     devtools::install_github("poissonconsulting/yesno")
 
-## Information
+or alternatively install (and update) from the Poisson R Archive Site
+([PoisRAS](https://github.com/poissonconsulting/drat))
 
-For more information install and load the `yesno` package and type
-`?yesno`.
+    # install.packages("drat")
+    drat::addRepo("poissonconsulting")
+    install.packages("yesno")
 
 ## Contribution
 
@@ -84,6 +86,6 @@ abide by its terms.
 
 ## Inspiration
 
-  - The single function is based on the internal `yesno()` function from
-    [devtools](https://github.com/hadley/devtools) (modified to return
-    TRUE if the user answers yes).
+  - The `yesno()` function is based on the internal function with the
+    same name from [devtools](https://github.com/hadley/devtools)
+    (modified to return TRUE if the user answers yes).

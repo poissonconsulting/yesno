@@ -4,32 +4,34 @@
 \alias{yesno2}
 \title{Yes No with Two Options}
 \usage{
-yesno2(...)
+yesno2(..., yes = "Yes", no = "No")
 }
 \arguments{
 \item{...}{Objects to paste and then output to produce the question.}
+
+\item{yes}{A string of the first response.}
+
+\item{no}{A string of the second response.}
 }
 \value{
-A flag indicating whether the user answered yes or no.
+A flag indicating whether the user selected the first (TRUE) or second (FALSE) response.
 }
 \description{
-Asks a custom yes-no question with 'Yes' or 'No' (in that order) as the only responses.
+Asks a custom yes-no question with two responses (by default 'Yes' or 'No').
 Returns a flag indicating which response the user choose.
-It is designed to be used in situations where a user needs to choose one of two options both of which have consequences.
+It is designed to be used in situations where a user needs to choose
+one of two affirmative options.
 }
 \details{
 The objects are first pasted without separators
 and collapsed using \code{\link{paste0}(..., collapse = "")}
 before being output using \code{\link{cat}}.
 
-The order and phrasing is fixed so that users can quickly type their
-preferred response to the question.
-
-Selection of a 0 (to exit) is also considered to be No.
+Selection of a 0 (to exit) causes the code to throw an error.
 }
 \examples{
 \dontrun{
-yesno2("Do you like ", R.Version()$nickname ,"?")
+yesno2("Do you like this question?", yes = "I really do")
 }
 }
 \seealso{

@@ -1,4 +1,4 @@
-- Added `yesno2` function to provide two fixed responses.
+- Added `yesno2` function to provide two responses.
 
 # yesno v0.0.2
 

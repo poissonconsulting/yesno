@@ -26,11 +26,7 @@ The order and phrasing of the possible responses varies randomly to
 ensure the user consciously chooses (as opposed to automatically types
 their response).
 
-The second, `yesno2()`, ask a custom yes-no question with two fixed
-responses.
-
-It is designed to be used in situations where a user needs to choose one
-of two options both of which have consequences.
+The second, `yesno2()`, ask a custom yes-no question with two responses.
 
 ## Demonstration
 
@@ -52,9 +48,9 @@ of two options both of which have consequences.
     Selection: 2
     [1] FALSE
     
-    > yesno2("Do you like this question?")
+    > yesno2("Do you like this question?", yes = "I really do")
     Do you like this question?
-    1: Yes
+    1: I really do
     2: No
     
     Selection: 1

@@ -82,12 +82,13 @@
     </div>
 
     
-    <p>Asks a custom yes-no question with 'Yes' or 'No' (in that order) as the only responses.
+    <p>Asks a custom yes-no question with two responses (by default 'Yes' or 'No').
 Returns a flag indicating which response the user choose.
-It is designed to be used in situations where a user needs to choose one of two options both of which have consequences.</p>
+It is designed to be used in situations where a user needs to choose
+one of two affirmative options.</p>
     
 
-    <pre class="usage"><span class='fu'>yesno2</span>(<span class='no'>...</span>)</pre>
+    <pre class="usage"><span class='fu'>yesno2</span>(<span class='no'>...</span>, <span class='kw'>yes</span> <span class='kw'>=</span> <span class='st'>"Yes"</span>, <span class='kw'>no</span> <span class='kw'>=</span> <span class='st'>"No"</span>)</pre>
     
     <h2 class="hasAnchor" id="arguments"><a class="anchor" href="#arguments"></a> Arguments</h2>
     <table class="ref-arguments">
@@ -96,20 +97,26 @@ It is designed to be used in situations where a user needs to choose one of two 
       <th>...</th>
       <td><p>Objects to paste and then output to produce the question.</p></td>
     </tr>
+    <tr>
+      <th>yes</th>
+      <td><p>A string of the first response.</p></td>
+    </tr>
+    <tr>
+      <th>no</th>
+      <td><p>A string of the second response.</p></td>
+    </tr>
     </table>
     
     <h2 class="hasAnchor" id="value"><a class="anchor" href="#value"></a>Value</h2>
 
-    <p>A flag indicating whether the user answered yes or no.</p>
+    <p>A flag indicating whether the user selected the first (TRUE) or second (FALSE) response.</p>
     
     <h2 class="hasAnchor" id="details"><a class="anchor" href="#details"></a>Details</h2>
 
     <p>The objects are first pasted without separators
 and collapsed using <code>paste0(..., collapse = "")</code>
 before being output using <code>cat</code>.</p>
-<p>The order and phrasing is fixed so that users can quickly type their
-preferred response to the question.</p>
-<p>Selection of a 0 (to exit) is also considered to be No.</p>
+<p>Selection of a 0 (to exit) causes the code to throw an error.</p>
     
     <h2 class="hasAnchor" id="see-also"><a class="anchor" href="#see-also"></a>See also</h2>
 
@@ -118,7 +125,7 @@ preferred response to the question.</p>
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
     <pre class="examples"><span class='co'># NOT RUN {</span>
-<span class='fu'>yesno2</span>(<span class='st'>"Do you like "</span>, <span class='fu'>R.Version</span>()$<span class='no'>nickname</span> ,<span class='st'>"?"</span>)
+<span class='fu'>yesno2</span>(<span class='st'>"Do you like this question?"</span>, <span class='kw'>yes</span> <span class='kw'>=</span> <span class='st'>"I really do"</span>)
 <span class='co'># }</span></pre>
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="sidebar">

@@ -64,8 +64,7 @@
 <p>Provides two functions.</p>
 <p>The first, <code><a href="reference/yesno.html">yesno()</a></code>, asks a custom yes-no question with three variable responses.</p>
 <p>The order and phrasing of the possible responses varies randomly to ensure the user consciously chooses (as opposed to automatically types their response).</p>
-<p>The second, <code><a href="reference/yesno2.html">yesno2()</a></code>, ask a custom yes-no question with two fixed responses.</p>
-<p>It is designed to be used in situations where a user needs to choose one of two options both of which have consequences.</p>
+<p>The second, <code><a href="reference/yesno2.html">yesno2()</a></code>, ask a custom yes-no question with two responses.</p>
 </section><section id="demonstration" class="level2"><h2>Demonstration</h2>
 <pre><code>yesno("Do you like ", R.Version()$nickname ,"?")
 Do you like Bug in Your Hair?
@@ -85,9 +84,9 @@ Do you like Bug in Your Hair?
 Selection: 2
 [1] FALSE
 
-&gt; yesno2("Do you like this question?")
+&gt; yesno2("Do you like this question?", yes = "I really do")
 Do you like this question?
-1: Yes
+1: I really do
 2: No
 
 Selection: 1

@@ -1,4 +1,4 @@
-# yesno 0.0.3
+# yesno 0.1.0
 
 - Added `yesno2` function to provide two custom responses.
 

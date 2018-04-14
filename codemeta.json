@@ -8,7 +8,7 @@
   "description": "Asks Yes-No questions with variable or custom responses.",
   "name": "yesno: Ask Yes-No Questions",
   "license": "https://spdx.org/licenses/GPL-2.0",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "programmingLanguage": {
     "@type": "ComputerLanguage",
     "name": "R",
@@ -82,7 +82,7 @@
   "contIntegration": "https://travis-ci.org/poissonconsulting/yesno",
   "releaseNotes": "https://github.com/poissonconsulting/yesno/blob/master/NEWS.md",
   "readme": "https://github.com/poissonconsulting/yesno/blob/master/README.md",
-  "fileSize": "3.746KB",
+  "fileSize": "3.76KB",
   "codeRepository": "https://github.com/poissonconsulting/yesno",
   "issueTracker": "https://github.com/poissonconsulting/yesno/issues ",
   "datePublished": "2018-04-14"

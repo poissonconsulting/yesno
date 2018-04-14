@@ -83,7 +83,7 @@ Warning in citation(package = "yesno"): could not determine year for
 To cite package 'yesno' in publications use:
 
   Hadley Wickham and Joe Thorley (NA). yesno: Ask Yes-No
-  Questions. R package version 0.0.2.9004.
+  Questions. R package version 0.0.3.
   https://github.com/poissonconsulting/yesno
 
 A BibTeX entry for LaTeX users is
@@ -91,7 +91,7 @@ A BibTeX entry for LaTeX users is
   @Manual{,
     title = {yesno: Ask Yes-No Questions},
     author = {Hadley Wickham and Joe Thorley},
-    note = {R package version 0.0.2.9004},
+    note = {R package version 0.0.3},
     url = {https://github.com/poissonconsulting/yesno},
   }
 ```

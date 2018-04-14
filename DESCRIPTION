@@ -1,9 +1,10 @@
 Package: yesno
 Title: Ask Yes-No Questions
 Version: 0.0.3
+Date: 2018-04-14
 Authors@R: c(
-    person("Hadley", "Wickham", email = "hadley@rstudio.com", role = "aut"),
-    person("Joe", "Thorley", email = "joe@poissonconsulting.ca", role = c("aut", "cre")))
+    person("Joe", "Thorley", email = "joe@poissonconsulting.ca", role = c("aut", "cre")),
+    person("Hadley", "Wickham", email = "hadley@rstudio.com", role = "aut"))
 Description: Asks Yes-No questions with variable or custom responses.
 License: GPL (>= 2)
 URL: https://github.com/poissonconsulting/yesno

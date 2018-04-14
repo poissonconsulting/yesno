@@ -25,15 +25,15 @@
   "author": [
     {
       "@type": "Person",
-      "givenName": "Hadley",
-      "familyName": "Wickham",
-      "email": "hadley@rstudio.com"
-    },
-    {
-      "@type": "Person",
       "givenName": "Joe",
       "familyName": "Thorley",
       "email": "joe@poissonconsulting.ca"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Hadley",
+      "familyName": "Wickham",
+      "email": "hadley@rstudio.com"
     }
   ],
   "maintainer": {
@@ -82,7 +82,8 @@
   "contIntegration": "https://travis-ci.org/poissonconsulting/yesno",
   "releaseNotes": "https://github.com/poissonconsulting/yesno/blob/master/NEWS.md",
   "readme": "https://github.com/poissonconsulting/yesno/blob/master/README.md",
-  "fileSize": "3.794KB",
+  "fileSize": "3.746KB",
   "codeRepository": "https://github.com/poissonconsulting/yesno",
-  "issueTracker": "https://github.com/poissonconsulting/yesno/issues "
+  "issueTracker": "https://github.com/poissonconsulting/yesno/issues ",
+  "datePublished": "2018-04-14"
 }

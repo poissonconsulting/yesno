@@ -1,4 +1,4 @@
-#' Yes No
+#' Yes No with Variable Responses
 #'
 #' Asks a custom yes-no question with randomly varying responses.
 #' Returns a flag indicating whether the user answered yes or no.

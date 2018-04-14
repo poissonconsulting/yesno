@@ -2,7 +2,7 @@
 % Please edit documentation in R/yesno.R
 \name{yesno}
 \alias{yesno}
-\title{Yes No}
+\title{Yes No with Variable Responses}
 \usage{
 yesno(...)
 }

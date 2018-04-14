@@ -2,7 +2,7 @@
 % Please edit documentation in R/yesno2.R
 \name{yesno2}
 \alias{yesno2}
-\title{Yes No with Two Options}
+\title{Yes No with Two Custom Responses}
 \usage{
 yesno2(..., yes = "Yes", no = "No")
 }

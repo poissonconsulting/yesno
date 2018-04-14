@@ -1,4 +1,4 @@
-#' Yes No with Two Options
+#' Yes No with Two Custom Responses
 #'
 #' Asks a custom yes-no question with two responses (by default 'Yes' or 'No').
 #' Returns a flag indicating which response the user choose.

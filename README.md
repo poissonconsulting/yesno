@@ -12,6 +12,7 @@ GPL2](https://img.shields.io/badge/License-GPL2-blue.svg)](https://www.gnu.org/l
 [![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/yesno)](https://cran.r-project.org/package=yesno)
 [![CRAN
 Downloads](http://cranlogs.r-pkg.org/badges/grand-total/yesno)](https://cran.r-project.org/package=yesno)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1218397.svg)](https://doi.org/10.5281/zenodo.1218397)
 
 # yesno
 
@@ -77,17 +78,17 @@ drat [repository](https://github.com/poissonconsulting/drat) using
 
 To cite package 'yesno' in publications use:
 
-  Hadley Wickham and Joe Thorley (2018). yesno: Ask Yes-No
-  Questions. R package version 0.0.3.
+  Joe Thorley and Hadley Wickham (2018). yesno: Ask Yes-No
+  Questions. R package version 0.1.0.9000.
   https://github.com/poissonconsulting/yesno
 
 A BibTeX entry for LaTeX users is
 
   @Manual{,
     title = {yesno: Ask Yes-No Questions},
-    author = {Hadley Wickham and Joe Thorley},
+    author = {Joe Thorley and Hadley Wickham},
     year = {2018},
-    note = {R package version 0.0.3},
+    note = {R package version 0.1.0.9000},
     url = {https://github.com/poissonconsulting/yesno},
   }
 ```

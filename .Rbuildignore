@@ -11,3 +11,4 @@
 ^document.R$
 ^codemeta\.json$
 ^_pkgdown.yml$
+^revdep$

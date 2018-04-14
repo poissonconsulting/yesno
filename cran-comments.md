@@ -1,18 +1,16 @@
 ## Test environments
-* local OS X install, R 3.3.2
-* ubuntu 12.04 (on travis-ci), R 3.3.2
+
+* local OS X install, R 3.4.4
+* ubuntu 14.04 (on travis-ci), (R 3.1, 3.2, 3.3, oldrel, release, devel)
 * windows (on appveyor)
 * win-builder (devel and release)
 
 ## R CMD check results
 
-0 errors | 0 warnings | 1 note
-
-* checking CRAN incoming feasibility ... NOTE
-Maintainer: ‘Joe Thorley <joe@poissonconsulting.ca>’
-
-New submission
+0 errors | 0 warnings | 0 notes
 
 ## Reverse dependencies
 
-This is a new release, so there are no reverse dependencies.
+Checked all 4 dependencies: APfun, available, cordillera, mudfold
+
+No ERRORs or WARNINGs found :)

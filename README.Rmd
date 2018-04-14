@@ -12,7 +12,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-[![stability-stable](https://img.shields.io/badge/stability-stable-green.svg)](https://github.com/joethorley/stability-badges#stable)
+[![lifecycle](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://www.tidyverse.org/lifecycle/#stable)
 [![Travis-CI Build Status](https://travis-ci.org/poissonconsulting/yesno.svg?branch=master)](https://travis-ci.org/poissonconsulting/yesno)
 [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/poissonconsulting/yesno?branch=master&svg=true)](https://ci.appveyor.com/project/poissonconsulting/yesno)
 [![codecov](https://codecov.io/gh/poissonconsulting/yesno/branch/master/graph/badge.svg)](https://codecov.io/gh/poissonconsulting/yesno)
@@ -30,7 +30,7 @@ The first, `yesno()`, asks a custom yes-no question with three variable response
 
 The order and phrasing of the possible responses varies randomly to ensure the user consciously chooses (as opposed to automatically types their response).
 
-The second, `yesno2()`, ask a custom yes-no question with two responses.
+The second, `yesno2()`, ask a yes-no question with two custom responses.
 
 ## Demonstration
 
@@ -64,24 +64,30 @@ Selection: 1
 
 ## Installation
 
-To install the current release version from CRAN
-```
-install.packages("yesno")
-```
-
-To install the developmental version from GitHub
+To install the latest development version from [GitHub](https://github.com/poissonconsulting/yesno)
 ```
 # install.packages("devtools")
 devtools::install_github("poissonconsulting/yesno")
 ```
-or alternatively install (and update) from the Poisson R Archive Site ([PoisRAS](https://github.com/poissonconsulting/drat))
+
+Alternatively install the latest development version from the Poisson drat [repository](https://github.com/poissonconsulting/drat) using
 ```
 # install.packages("drat")
 drat::addRepo("poissonconsulting")
 install.packages("yesno")
 ```
 
+## Citation
+
+```{r, comment="", echo=FALSE}
+citation(package = "yesno")
+```
+
 ## Contribution
+
+Please report any [issues](https://github.com/poissonconsulting/yesno/issues).
+
+[Pull requests](https://github.com/poissonconsulting/yesno/pulls) are always welcome.
 
 Please note that this project is released with a [Contributor Code of Conduct](CONDUCT.md). 
 By participating in this project you agree to abide by its terms.

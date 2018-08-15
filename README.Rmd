@@ -14,7 +14,6 @@ knitr::opts_chunk$set(
 
 [![lifecycle](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://www.tidyverse.org/lifecycle/#stable)
 [![Travis-CI Build Status](https://travis-ci.org/poissonconsulting/yesno.svg?branch=master)](https://travis-ci.org/poissonconsulting/yesno)
-[![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/poissonconsulting/yesno?branch=master&svg=true)](https://ci.appveyor.com/project/poissonconsulting/yesno)
 [![codecov](https://codecov.io/gh/poissonconsulting/yesno/branch/master/graph/badge.svg)](https://codecov.io/gh/poissonconsulting/yesno)
 [![License: GPL2](https://img.shields.io/badge/License-GPL2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/yesno)](https://cran.r-project.org/package=yesno)
@@ -64,6 +63,11 @@ Selection: 1
 ```
 
 ## Installation
+
+To install the latest official release from [CRAN](https://CRAN.R-project.org/package=yesno)
+```
+install.packages("yesno")
+```
 
 To install the latest development version from [GitHub](https://github.com/poissonconsulting/yesno)
 ```

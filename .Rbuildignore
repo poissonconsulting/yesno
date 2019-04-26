@@ -8,7 +8,6 @@
 ^CONDUCT\.md$
 ^cran-comments\.md$
 ^docs$
-^document.R$
-^codemeta\.json$
+^build.R$
 ^_pkgdown.yml$
 ^revdep$

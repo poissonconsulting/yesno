@@ -4,15 +4,11 @@
 [![lifecycle](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://www.tidyverse.org/lifecycle/#stable)
 [![Travis-CI Build
 Status](https://travis-ci.org/poissonconsulting/yesno.svg?branch=master)](https://travis-ci.org/poissonconsulting/yesno)
-[![AppVeyor Build
-Status](https://ci.appveyor.com/api/projects/status/github/poissonconsulting/yesno?branch=master&svg=true)](https://ci.appveyor.com/project/poissonconsulting/yesno)
 [![codecov](https://codecov.io/gh/poissonconsulting/yesno/branch/master/graph/badge.svg)](https://codecov.io/gh/poissonconsulting/yesno)
 [![License:
 GPL2](https://img.shields.io/badge/License-GPL2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
 [![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/yesno)](https://cran.r-project.org/package=yesno)
-[![CRAN
-Downloads](http://cranlogs.r-pkg.org/badges/grand-total/yesno)](https://cran.r-project.org/package=yesno)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1218397.svg)](https://doi.org/10.5281/zenodo.1218397)
+![CRAN Downloads](http://cranlogs.r-pkg.org/badges/yesno)
 
 # yesno
 
@@ -59,39 +55,25 @@ The second, `yesno2()`, ask a yes-no question with two custom responses.
 
 ## Installation
 
-To install the latest development version from
-[GitHub](https://github.com/poissonconsulting/yesno)
+To install the latest release version from
+[CRAN](https://cran.r-project.org)
 
-    # install.packages("devtools")
-    devtools::install_github("poissonconsulting/yesno")
+    install.packages("yesno")
 
-Alternatively install the latest development version from the Poisson
-drat [repository](https://github.com/poissonconsulting/drat) using
+To install the latest development version from the Poisson drat
+[repository](https://github.com/poissonconsulting/drat)
 
-    # install.packages("drat")
+    if(!"drat" %in% installed.packages()[,1]) 
+      install.packages("drat")
     drat::addRepo("poissonconsulting")
     install.packages("yesno")
 
-## Citation
+To install the latest development version from
+[GitHub](https://github.com/poissonconsulting/rpdo)
 
-``` 
-
-To cite package 'yesno' in publications use:
-
-  Joe Thorley and Hadley Wickham (2018). yesno: Ask Yes-No
-  Questions. R package version 0.1.0.9000.
-  https://github.com/poissonconsulting/yesno
-
-A BibTeX entry for LaTeX users is
-
-  @Manual{,
-    title = {yesno: Ask Yes-No Questions},
-    author = {Joe Thorley and Hadley Wickham},
-    year = {2018},
-    note = {R package version 0.1.0.9000},
-    url = {https://github.com/poissonconsulting/yesno},
-  }
-```
+    if(!"devtools" %in% installed.packages()[,1]) 
+      install.packages("devtools")
+    devtools::install_github("poissonconsulting/yesno")
 
 ## Contribution
 

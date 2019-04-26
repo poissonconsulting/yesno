@@ -17,8 +17,7 @@ knitr::opts_chunk$set(
 [![codecov](https://codecov.io/gh/poissonconsulting/yesno/branch/master/graph/badge.svg)](https://codecov.io/gh/poissonconsulting/yesno)
 [![License: GPL2](https://img.shields.io/badge/License-GPL2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/yesno)](https://cran.r-project.org/package=yesno)
-[![CRAN Downloads](http://cranlogs.r-pkg.org/badges/grand-total/yesno)](https://cran.r-project.org/package=yesno)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1218397.svg)](https://doi.org/10.5281/zenodo.1218397)
+![CRAN Downloads](http://cranlogs.r-pkg.org/badges/yesno)
 
 # yesno
 
@@ -64,28 +63,24 @@ Selection: 1
 
 ## Installation
 
-To install the latest official release from [CRAN](https://CRAN.R-project.org/package=yesno)
+To install the latest release version from [CRAN](https://cran.r-project.org)
 ```
 install.packages("yesno")
 ```
 
-To install the latest development version from [GitHub](https://github.com/poissonconsulting/yesno)
+To install the latest development version from the Poisson drat [repository](https://github.com/poissonconsulting/drat)
 ```
-# install.packages("devtools")
-devtools::install_github("poissonconsulting/yesno")
-```
-
-Alternatively install the latest development version from the Poisson drat [repository](https://github.com/poissonconsulting/drat) using
-```
-# install.packages("drat")
+if(!"drat" %in% installed.packages()[,1]) 
+  install.packages("drat")
 drat::addRepo("poissonconsulting")
 install.packages("yesno")
 ```
 
-## Citation
-
-```{r, comment="", echo=FALSE}
-citation(package = "yesno")
+To install the latest development version from [GitHub](https://github.com/poissonconsulting/rpdo)
+```
+if(!"devtools" %in% installed.packages()[,1]) 
+  install.packages("devtools")
+devtools::install_github("poissonconsulting/yesno")
 ```
 
 ## Contribution

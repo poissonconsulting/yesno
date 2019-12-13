@@ -37,7 +37,7 @@ Questions should be phrased accordingly.
 }
 \examples{
 \dontrun{
-yesno("Do you like ", R.Version()$nickname ,"?")
+yesno("Do you like ", R.Version()$nickname, "?")
 }
 }
 \seealso{

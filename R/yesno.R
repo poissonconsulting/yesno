@@ -26,12 +26,14 @@
 #' @seealso \code{\link{yesno2}}
 #' @export
 #' @examples
-#'\dontrun{
-#' yesno("Do you like ", R.Version()$nickname ,"?")
-#'}
+#' \dontrun{
+#' yesno("Do you like ", R.Version()$nickname, "?")
+#' }
 yesno <- function(...) {
-  yeses <- c("Yes", "Definitely", "For sure", "Yup", "Yeah",
-             "I agree", "Absolutely")
+  yeses <- c(
+    "Yes", "Definitely", "For sure", "Yup", "Yeah",
+    "I agree", "Absolutely"
+  )
   nos <- c("No way", "Not yet", "I forget", "No", "Nope", "Uhhhh... Maybe?")
 
   qs <- c(sample(yeses, 1), sample(nos, 2))

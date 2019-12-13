@@ -2,4 +2,3 @@
 
 export(yesno)
 export(yesno2)
-importFrom(utils,menu)

@@ -11,7 +11,7 @@
 #'
 #' Selection of a 0 (to exit) causes the code to throw an error.
 #'
-#' @param ... Objects to paste and then output to produce the question.
+#' @inheritParams yesno
 #' @param yes A string of the first response.
 #' @param no A string of the second response.
 #' @return A flag indicating whether the user selected the first (TRUE) or second (FALSE) response.
@@ -30,7 +30,7 @@ yesno2 <- function(..., yes = "Yes", no = "No") {
   }
 
   cat(paste0(..., collapse = ""))
-  response <- menu(c(yes, no))
+  response <- utils::menu(c(yes, no))
   if (response == 0) stop("user choose to exit")
   response == 1
 }

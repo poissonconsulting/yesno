@@ -40,5 +40,5 @@ yesno <- function(...) {
   rand <- sample(length(qs))
 
   cat(paste0(..., collapse = ""))
-  menu(qs[rand]) == which(rand == 1)
+  utils::menu(qs[rand]) == which(rand == 1)
 }

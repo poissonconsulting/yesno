@@ -2,8 +2,8 @@ Package: yesno
 Title: Ask Yes-No Questions
 Version: 0.1.0.9002
 Authors@R: c(
-    person("Joe", "Thorley", email = "joe@poissonconsulting.ca", role = c("aut", "cre")),
-    person("Hadley", "Wickham", email = "hadley@rstudio.com", role = "aut"))
+    person("Joe", "Thorley", , "joe@poissonconsulting.ca", c("aut", "cre"), comment = c(ORCID = "0000-0002-7683-4592")),
+    person("Hadley", "Wickham", , "hadley@rstudio.com", role = "aut"))
 Description: Asks Yes-No questions with variable or custom responses.
 License: GPL (>= 2)
 Depends:

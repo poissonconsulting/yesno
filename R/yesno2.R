@@ -6,8 +6,8 @@
 #' one of two affirmative options.
 #'
 #' The objects are first pasted without separators
-#' and collapsed using \code{\link{paste0}(..., collapse = "")}
-#' before being output using \code{\link{cat}}.
+#' and collapsed using `[paste0](..., collapse = "")`
+#' before being output using [cat()].
 #'
 #' Selection of a 0 (to exit) causes the code to throw an error.
 #'
@@ -15,7 +15,7 @@
 #' @param yes A string of the first response.
 #' @param no A string of the second response.
 #' @return A flag indicating whether the user selected the first (TRUE) or second (FALSE) response.
-#' @seealso \code{\link{yesno}}
+#' @seealso [yesno()]
 #' @export
 #' @examples
 #' \dontrun{

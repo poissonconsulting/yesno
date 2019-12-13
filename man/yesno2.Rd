@@ -24,8 +24,8 @@ one of two affirmative options.
 }
 \details{
 The objects are first pasted without separators
-and collapsed using \code{\link{paste0}(..., collapse = "")}
-before being output using \code{\link{cat}}.
+and collapsed using \verb{[paste0](..., collapse = "")}
+before being output using \code{\link[=cat]{cat()}}.
 
 Selection of a 0 (to exit) causes the code to throw an error.
 }
@@ -35,5 +35,5 @@ yesno2("Do you like this question?", yes = "I really do")
 }
 }
 \seealso{
-\code{\link{yesno}}
+\code{\link[=yesno]{yesno()}}
 }

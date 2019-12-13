@@ -20,8 +20,8 @@ an affirmative action.
 }
 \details{
 The objects are first pasted without separators
-and collapsed using \code{\link{paste0}(..., collapse = "")}
-before being output using \code{\link{cat}}.
+and collapsed using \verb{[paste0](..., collapse = "")}
+before being output using \code{\link[=cat]{cat()}}.
 
 The order and phrasing of the possible responses varies randomly to ensure
 the user consciously chooses (as opposed to automatically types their response).
@@ -41,5 +41,5 @@ yesno("Do you like ", R.Version()$nickname, "?")
 }
 }
 \seealso{
-\code{\link{yesno2}}
+\code{\link[=yesno2]{yesno2()}}
 }

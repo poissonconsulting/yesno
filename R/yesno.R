@@ -6,8 +6,8 @@
 #' an affirmative action.
 #'
 #' The objects are first pasted without separators
-#' and collapsed using \code{\link{paste0}(..., collapse = "")}
-#' before being output using \code{\link{cat}}.
+#' and collapsed using `[paste0](..., collapse = "")`
+#' before being output using [cat()].
 #'
 #' The order and phrasing of the possible responses varies randomly to ensure
 #' the user consciously chooses (as opposed to automatically types their response).
@@ -23,7 +23,7 @@
 #'
 #' @param ... Objects to paste and then output to produce the question.
 #' @return A flag indicating whether the user answered yes or no.
-#' @seealso \code{\link{yesno2}}
+#' @seealso [yesno2()]
 #' @export
 #' @examples
 #' \dontrun{

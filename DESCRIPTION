@@ -7,7 +7,7 @@ Authors@R: c(
 Description: Asks Yes-No questions with variable or custom responses.
 License: GPL (>= 2)
 Depends:
-    R (>= 3.1.0)
+    R (>= 3.1)
 Imports:
     utils
 Suggests:

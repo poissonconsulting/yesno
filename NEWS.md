@@ -1,3 +1,7 @@
+# yesno 0.1.1
+
+- Minor house-keeping.
+
 # yesno 0.1.0
 
 - Added `yesno2` function to provide two custom responses.

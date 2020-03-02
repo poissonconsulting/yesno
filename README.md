@@ -1,16 +1,25 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
+# yesno
+
+<!-- badges: start -->
+
 [![lifecycle](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://www.tidyverse.org/lifecycle/#stable)
-[![Travis-CI Build
-Status](https://travis-ci.org/poissonconsulting/yesno.svg?branch=master)](https://travis-ci.org/poissonconsulting/yesno)
-[![codecov](https://codecov.io/gh/poissonconsulting/yesno/branch/master/graph/badge.svg)](https://codecov.io/gh/poissonconsulting/yesno)
+[![Travis build
+status](https://travis-ci.com/poissonconsulting/yesno.svg?branch=master)](https://travis-ci.com/poissonconsulting/yesno)
+[![AppVeyor build
+status](https://ci.appveyor.com/api/projects/status/github/poissonconsulting/yesno?branch=master&svg=true)](https://ci.appveyor.com/project/poissonconsulting/yesno)
+[![Codecov test
+coverage](https://codecov.io/gh/poissonconsulting/yesno/branch/master/graph/badge.svg)](https://codecov.io/gh/poissonconsulting/yesno?branch=master)
 [![License:
 GPL2](https://img.shields.io/badge/License-GPL2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
-[![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/yesno)](https://cran.r-project.org/package=yesno)
-![CRAN Downloads](http://cranlogs.r-pkg.org/badges/yesno)
-
-# yesno
+[![Tinyverse
+status](https://tinyverse.netlify.com/badge/yesno)](https://CRAN.R-project.org/package=yesno)
+[![CRAN
+status](https://www.r-pkg.org/badges/version/yesno)](https://cran.r-project.org/package=yesno)
+![CRAN downloads](https://cranlogs.r-pkg.org/badges/yesno)
+<!-- badges: end -->
 
 ## Introduction
 
@@ -55,25 +64,28 @@ The second, `yesno2()`, ask a yes-no question with two custom responses.
 
 ## Installation
 
-To install the latest release version from
-[CRAN](https://cran.r-project.org)
+To install the latest release from [CRAN](https://cran.r-project.org)
 
-    install.packages("yesno")
+``` r
+install.packages("yesno")
+```
 
-To install the latest development version from the Poisson drat
+To install the developmental version from
+[GitHub](https://github.com/poissonconsulting/yesno)
+
+``` r
+# install.packages("remotes")
+remotes::install_github("poissonconsulting/yesno")
+```
+
+To install the latest developmental release from the Poisson drat
 [repository](https://github.com/poissonconsulting/drat)
 
-    if(!"drat" %in% installed.packages()[,1]) 
-      install.packages("drat")
-    drat::addRepo("poissonconsulting")
-    install.packages("yesno")
-
-To install the latest development version from
-[GitHub](https://github.com/poissonconsulting/rpdo)
-
-    if(!"devtools" %in% installed.packages()[,1]) 
-      install.packages("devtools")
-    devtools::install_github("poissonconsulting/yesno")
+``` r
+# install.packages("drat")
+drat::addRepo("poissonconsulting")
+install.packages("yesno")
+```
 
 ## Contribution
 
@@ -83,9 +95,12 @@ Please report any
 [Pull requests](https://github.com/poissonconsulting/yesno/pulls) are
 always welcome.
 
-Please note that this project is released with a [Contributor Code of
-Conduct](CONDUCT.md). By participating in this project you agree to
-abide by its terms.
+## Code of Conduct
+
+Please note that the yesno project is released with a [Contributor Code
+of
+Conduct](https://contributor-covenant.org/version/1/0/0/CODE_OF_CONDUCT.html).
+By contributing to this project, you agree to abide by its terms.
 
 ## Inspiration
 

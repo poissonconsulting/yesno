@@ -11,3 +11,4 @@
 ^build.R$
 ^_pkgdown.yml$
 ^revdep$
+^CODE_OF_CONDUCT\.md$

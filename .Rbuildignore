@@ -8,7 +8,7 @@
 ^CONDUCT\.md$
 ^cran-comments\.md$
 ^docs$
-^build.R$
-^_pkgdown.yml$
+^build\.R$
+^_pkgdown\.yml$
 ^revdep$
 ^CODE_OF_CONDUCT\.md$

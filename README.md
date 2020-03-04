@@ -99,7 +99,7 @@ always welcome.
 
 Please note that the yesno project is released with a [Contributor Code
 of
-Conduct](https://contributor-covenant.org/version/1/0/0/CODE_OF_CONDUCT.html).
+Conduct](https://www.contributor-covenant.org/version/1/0/0/code-of-conduct/).
 By contributing to this project, you agree to abide by its terms.
 
 ## Inspiration

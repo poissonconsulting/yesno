@@ -13,3 +13,4 @@
 ^revdep$
 ^CODE_OF_CONDUCT\.md$
 ^CRAN-RELEASE$
+^\.github$

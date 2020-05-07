@@ -14,7 +14,8 @@ yesno2(..., yes = "Yes", no = "No")
 \item{no}{A string of the second response.}
 }
 \value{
-A flag indicating whether the user selected the first (TRUE) or second (FALSE) response.
+A flag indicating whether the user selected the first (TRUE) or
+second (FALSE) response.
 }
 \description{
 Asks a custom yes-no question with two responses (by default 'Yes' or 'No').

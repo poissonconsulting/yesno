@@ -14,7 +14,8 @@
 #' @inheritParams yesno
 #' @param yes A string of the first response.
 #' @param no A string of the second response.
-#' @return A flag indicating whether the user selected the first (TRUE) or second (FALSE) response.
+#' @return A flag indicating whether the user selected the first (TRUE) or
+#'  second (FALSE) response.
 #' @seealso [yesno()]
 #' @export
 #' @examples
@@ -22,10 +23,12 @@
 #' yesno2("Do you like this question?", yes = "I really do")
 #' }
 yesno2 <- function(..., yes = "Yes", no = "No") {
-  if (!(is.character(yes) && identical(length(yes), 1L)) && isTRUE(!is.na(yes))) {
+  if (!(is.character(yes) && identical(length(yes), 1L)) &&
+      isTRUE(!is.na(yes))) {
     stop("yes must be a string", call. = FALSE)
   }
-  if (!(is.character(no) && identical(length(no), 1L)) && isTRUE(!is.na(no))) {
+  if (!(is.character(no) && identical(length(no), 1L)) &&
+      isTRUE(!is.na(no))) {
     stop("no must be a string", call. = FALSE)
   }
 

@@ -16,3 +16,4 @@
 ^\.github$
 ^scripts$
 ^pkgdown$
+^\.gitignore$

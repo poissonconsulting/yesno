@@ -2,7 +2,10 @@
 .Rhistory
 .RData
 .Ruserdata
-/revdep/.cache.rds
-/docs
+
+.DS_Store
+.Renviron
+
 docs
-docs/
+inst/docs
+scripts

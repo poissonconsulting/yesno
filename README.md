@@ -90,9 +90,3 @@ Please note that the yesno project is released with a [Contributor Code
 of
 Conduct](https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html).
 By contributing to this project, you agree to abide by its terms.
-
-## Inspiration
-
-  - The `yesno()` function is based on the internal function with the
-    same name from [devtools](https://github.com/hadley/devtools)
-    (modified to return TRUE if the user answers yes).

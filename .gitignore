@@ -5,6 +5,9 @@
 
 .DS_Store
 .Renviron
+.RProfile
+
+*.html
 
 docs
 inst/docs

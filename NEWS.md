@@ -1,11 +1,6 @@
-# yesno 0.1.1.9001
+# yesno 0.1.2
 
-- Internal changes only.
-
-
-# yesno 0.1.1.9000
-
-- Internal changes only.
+- More house-keeping.
 
 # yesno 0.1.1
 

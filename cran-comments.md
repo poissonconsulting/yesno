@@ -1,20 +1,21 @@
 ## Test environments
 
-release 3.6.2
+release 4.0.2
 
-* OS X (local) - release
-* Ubuntu (travis) - 3.2 to devel
-* Windows (appveyor) - release
+* OSX (local) - release
+* OSX (actions) - oldrel, release and devel
+* Ubuntu (actions) - 3.3 to release
+* Windows (actions) - release
+* Windows (winbuilder) - devel
 
 ## R CMD check results
 
-0 errors | 0 warnings | 0 note
+0 errors | 0 warnings | 0 notes
 
 ## Reverse Dependencies
 
-There are four reverse dependencies.
+There are three reverse dependencies.
 
-✓ available 1.0.4                        ── E: 0     | W: 0     | N: 1    
-✓ cordillera 0.8-0                       ── E: 0     | W: 0     | N: 0    
-✓ golem 0.1                              ── E: 0     | W: 0     | N: 1    
-✓ ypr 0.4.0                              ── E: 0     | W: 0     | N: 0  
+✓ available 1.0.4                        ── E: 0     | W: 0     | N: 1                                                          
+✓ cordillera 0.8-0                       ── E: 0     | W: 0     | N: 0                                                          
+✓ ypr 0.5.0                              ── E: 0     | W: 0     | N: 0    

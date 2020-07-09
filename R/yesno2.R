@@ -24,11 +24,11 @@
 #' }
 yesno2 <- function(..., yes = "Yes", no = "No") {
   if (!(is.character(yes) && identical(length(yes), 1L)) &&
-      isTRUE(!is.na(yes))) {
+    isTRUE(!is.na(yes))) {
     stop("yes must be a string", call. = FALSE)
   }
   if (!(is.character(no) && identical(length(no), 1L)) &&
-      isTRUE(!is.na(no))) {
+    isTRUE(!is.na(no))) {
     stop("no must be a string", call. = FALSE)
   }
 

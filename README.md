@@ -5,7 +5,8 @@
 
 <!-- badges: start -->
 
-[![lifecycle](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://www.tidyverse.org/lifecycle/#stable)
+[![Lifecycle:
+stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html#stable)
 [![R build
 status](https://github.com/poissonconsulting/yesno/workflows/R-CMD-check/badge.svg)](https://github.com/poissonconsulting/yesno/actions)
 [![Codecov test
@@ -39,24 +40,24 @@ The second, `yesno2()`, ask a yes-no question with two custom responses.
     1: Definitely
     2: No way
     3: No
-    
+
     Selection: 1
     [1] TRUE
-    
+
     yesno("Do you like ", R.Version()$nickname ,"?")
     Do you like Bug in Your Hair?
     1: No way
     2: Uhhhh... Maybe?
     3: I agree
-    
+
     Selection: 2
     [1] FALSE
-    
+
     > yesno2("Do you like this question?", yes = "I really do")
     Do you like this question?
     1: I really do
     2: No
-    
+
     Selection: 1
     [1] TRUE
 

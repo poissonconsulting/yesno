@@ -13,8 +13,6 @@ status](https://github.com/poissonconsulting/yesno/workflows/R-CMD-check/badge.s
 coverage](https://codecov.io/gh/poissonconsulting/yesno/branch/master/graph/badge.svg)](https://codecov.io/gh/poissonconsulting/yesno?branch=master)
 [![License:
 MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Tinyverse
-status](https://tinyverse.netlify.com/badge/yesno)](https://CRAN.R-project.org/package=yesno)
 [![CRAN
 status](https://www.r-pkg.org/badges/version/yesno)](https://cran.r-project.org/package=yesno)
 ![CRAN downloads](https://cranlogs.r-pkg.org/badges/yesno)

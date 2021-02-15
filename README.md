@@ -16,6 +16,7 @@ MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/
 [![CRAN
 status](https://www.r-pkg.org/badges/version/yesno)](https://cran.r-project.org/package=yesno)
 ![CRAN downloads](https://cranlogs.r-pkg.org/badges/yesno)
+[![R-CMD-check](https://github.com/poissonconsulting/yesno/workflows/R-CMD-check/badge.svg)](https://github.com/poissonconsulting/yesno/actions)
 <!-- badges: end -->
 
 ## Introduction

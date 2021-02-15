@@ -12,7 +12,7 @@ status](https://github.com/poissonconsulting/yesno/workflows/R-CMD-check/badge.s
 [![Codecov test
 coverage](https://codecov.io/gh/poissonconsulting/yesno/branch/master/graph/badge.svg)](https://codecov.io/gh/poissonconsulting/yesno?branch=master)
 [![License:
-GPL2](https://img.shields.io/badge/License-GPL2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
+MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Tinyverse
 status](https://tinyverse.netlify.com/badge/yesno)](https://CRAN.R-project.org/package=yesno)
 [![CRAN

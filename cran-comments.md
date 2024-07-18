@@ -3,7 +3,7 @@
 This patch release updates the maintainer of the package and does some basic housekeeping and updates.
 The previous maintainer is aware of the change. 
 
-release 4.4.0
+release 4.4.1
 
 * OSX (local) - release
 * OSX (actions) - release

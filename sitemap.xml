@@ -1,42 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>/404.html</loc>
-  </url>
-  <url>
-    <loc>/CODE_OF_CONDUCT.html</loc>
-  </url>
-  <url>
-    <loc>/CONTRIBUTING.html</loc>
-  </url>
-  <url>
-    <loc>/LICENSE-text.html</loc>
-  </url>
-  <url>
-    <loc>/LICENSE.html</loc>
-  </url>
-  <url>
-    <loc>/SUPPORT.html</loc>
-  </url>
-  <url>
-    <loc>/authors.html</loc>
-  </url>
-  <url>
-    <loc>/index.html</loc>
-  </url>
-  <url>
-    <loc>/news/index.html</loc>
-  </url>
-  <url>
-    <loc>/pull_request_template.html</loc>
-  </url>
-  <url>
-    <loc>/reference/index.html</loc>
-  </url>
-  <url>
-    <loc>/reference/yesno.html</loc>
-  </url>
-  <url>
-    <loc>/reference/yesno2.html</loc>
-  </url>
+<urlset xmlns = 'http://www.sitemaps.org/schemas/sitemap/0.9'>
+<url><loc>https://poissonconsulting.github.io/yesno/404.html</loc></url>
+<url><loc>https://poissonconsulting.github.io/yesno/CODE_OF_CONDUCT.html</loc></url>
+<url><loc>https://poissonconsulting.github.io/yesno/CONTRIBUTING.html</loc></url>
+<url><loc>https://poissonconsulting.github.io/yesno/LICENSE-text.html</loc></url>
+<url><loc>https://poissonconsulting.github.io/yesno/LICENSE.html</loc></url>
+<url><loc>https://poissonconsulting.github.io/yesno/SUPPORT.html</loc></url>
+<url><loc>https://poissonconsulting.github.io/yesno/authors.html</loc></url>
+<url><loc>https://poissonconsulting.github.io/yesno/index.html</loc></url>
+<url><loc>https://poissonconsulting.github.io/yesno/news/index.html</loc></url>
+<url><loc>https://poissonconsulting.github.io/yesno/reference/index.html</loc></url>
+<url><loc>https://poissonconsulting.github.io/yesno/reference/yesno.html</loc></url>
+<url><loc>https://poissonconsulting.github.io/yesno/reference/yesno2.html</loc></url>
 </urlset>
+

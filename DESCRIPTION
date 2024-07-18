@@ -2,8 +2,12 @@ Package: yesno
 Title: Ask Yes-No Questions
 Version: 0.1.2.9000
 Authors@R: c(
-    person("Joe", "Thorley", , "joe@poissonconsulting.ca", c("aut", "cre"), comment = c(ORCID = "0000-0002-7683-4592")),
-    person("Hadley", "Wickham", , "hadley@rstudio.com", role = "aut", comment = c(ORCID = "0000-0003-4757-117X"))
+    person("Ayla", "Pearson", "ayla@poissonconsulting.ca", role = "cre",
+            comment = c(ORCID = "0000-0001-7388-1222")),
+    person("Joe", "Thorley", , "joe@poissonconsulting.ca", role = "aut",
+           comment = c(ORCID = "0000-0002-7683-4592")),
+    person("Hadley", "Wickham", , "hadley@rstudio.com", role = "aut",
+           comment = c(ORCID = "0000-0003-4757-117X"))
   )
 Description: Asks Yes-No questions with variable or custom responses.
 License: MIT + file LICENSE

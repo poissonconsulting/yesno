@@ -18,3 +18,4 @@
 ^pkgdown$
 ^\.gitignore$
 ^LICENSE\.md$
+^dev$

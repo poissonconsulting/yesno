@@ -7,7 +7,7 @@
 
 [![Lifecycle:
 stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html#stable)
-[![R-CMD-check](https://github.com/poissonconsulting/yesno/workflows/R-CMD-check/badge.svg)](https://github.com/poissonconsulting/yesno/actions)
+[![R-CMD-check](https://github.com/poissonconsulting/yesno/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/poissonconsulting/yesno/actions/workflows/R-CMD-check.yaml)
 [![Codecov test
 coverage](https://codecov.io/gh/poissonconsulting/yesno/branch/master/graph/badge.svg)](https://codecov.io/gh/poissonconsulting/yesno?branch=master)
 [![License:
@@ -86,5 +86,5 @@ always welcome.
 
 Please note that the yesno project is released with a [Contributor Code
 of
-Conduct](https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html).
+Conduct](https://poissonconsulting.github.io/yesno/CODE_OF_CONDUCT.html).
 By contributing to this project, you agree to abide by its terms.

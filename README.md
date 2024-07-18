@@ -9,7 +9,7 @@
 stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html#stable)
 [![R-CMD-check](https://github.com/poissonconsulting/yesno/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/poissonconsulting/yesno/actions/workflows/R-CMD-check.yaml)
 [![Codecov test
-coverage](https://codecov.io/gh/poissonconsulting/yesno/branch/master/graph/badge.svg)](https://codecov.io/gh/poissonconsulting/yesno?branch=master)
+coverage](https://codecov.io/gh/poissonconsulting/yesno/graph/badge.svg)](https://app.codecov.io/gh/poissonconsulting/yesno)
 [![License:
 MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![CRAN

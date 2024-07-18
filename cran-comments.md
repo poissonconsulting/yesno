@@ -7,6 +7,7 @@ release 4.4.0
 
 * OSX (local) - release
 * OSX (actions) - release
+* OSX (macbuilder) - 4.4.0
 * Ubuntu (actions) - dev, release, oldrel-1, oldrel-2, oldrel-3, oldrel-4
 * Windows (actions) - release, 4.1
 * Windows (winbuilder) - devel, 4.4.1

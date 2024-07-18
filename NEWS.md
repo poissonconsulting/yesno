@@ -1,7 +1,12 @@
+<!-- NEWS.md is maintained by https://fledge.cynkra.com, contributors should not edit this file -->
+
+# yesno 0.1.3
+
+- Minor housekeeping.
+
 # yesno 0.1.2.9000
 
 - Same as previous version.
-
 
 # yesno 0.1.2
 

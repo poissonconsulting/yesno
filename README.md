@@ -30,6 +30,22 @@ their response).
 
 The second, `yesno2()`, ask a yes-no question with two custom responses.
 
+## Installation
+
+To install the latest release from [CRAN](https://cran.r-project.org)
+
+``` r
+install.packages("yesno")
+```
+
+To install the developmental version from
+[GitHub](https://github.com/poissonconsulting/yesno)
+
+``` r
+# install.packages("remotes")
+remotes::install_github("poissonconsulting/yesno")
+```
+
 ## Demonstration
 
     yesno("Do you like ", R.Version()$nickname ,"?")
@@ -57,22 +73,6 @@ The second, `yesno2()`, ask a yes-no question with two custom responses.
 
     Selection: 1
     [1] TRUE
-
-## Installation
-
-To install the latest release from [CRAN](https://cran.r-project.org)
-
-``` r
-install.packages("yesno")
-```
-
-To install the developmental version from
-[GitHub](https://github.com/poissonconsulting/yesno)
-
-``` r
-# install.packages("remotes")
-remotes::install_github("poissonconsulting/yesno")
-```
 
 ## Contribution
 

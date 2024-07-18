@@ -1,22 +1,24 @@
 # Platform
 
-|field    |value                        |
-|:--------|:----------------------------|
-|version  |R version 4.0.2 (2020-06-22) |
-|os       |macOS Catalina 10.15.5       |
-|system   |x86_64, darwin17.0           |
-|ui       |RStudio                      |
-|language |(EN)                         |
-|collate  |en_CA.UTF-8                  |
-|ctype    |en_CA.UTF-8                  |
-|tz       |America/Vancouver            |
-|date     |2020-07-09                   |
+|field    |value                                                                                               |
+|:--------|:---------------------------------------------------------------------------------------------------|
+|version  |R version 4.4.0 (2024-04-24)                                                                        |
+|os       |macOS Sonoma 14.5                                                                                   |
+|system   |aarch64, darwin20                                                                                   |
+|ui       |RStudio                                                                                             |
+|language |(EN)                                                                                                |
+|collate  |en_US.UTF-8                                                                                         |
+|ctype    |en_US.UTF-8                                                                                         |
+|tz       |America/Vancouver                                                                                   |
+|date     |2024-07-18                                                                                          |
+|rstudio  |2024.04.2+764 Chocolate Cosmos (desktop)                                                            |
+|pandoc   |3.1.11 @ /Applications/RStudio.app/Contents/Resources/app/quarto/bin/tools/aarch64/ (via rmarkdown) |
 
 # Dependencies
 
-|package |old   |new   |Δ  |
-|:-------|:-----|:-----|:--|
-|yesno   |0.1.1 |0.1.2 |*  |
+|package |old   |new        |Δ  |
+|:-------|:-----|:----------|:--|
+|yesno   |0.1.2 |0.1.2.9000 |*  |
 
 # Revdeps
 

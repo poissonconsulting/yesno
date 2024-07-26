@@ -19,3 +19,4 @@
 ^\.gitignore$
 ^LICENSE\.md$
 ^dev$
+^CRAN-SUBMISSION$

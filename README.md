@@ -1,4 +1,3 @@
-
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
 # yesno <img src="man/figures/logo.png" align="right" />
@@ -34,17 +33,13 @@ The second, `yesno2()`, ask a yes-no question with two custom responses.
 
 To install the latest release from [CRAN](https://cran.r-project.org)
 
-``` r
-install.packages("yesno")
-```
+    install.packages("yesno")
 
 To install the developmental version from
 [GitHub](https://github.com/poissonconsulting/yesno)
 
-``` r
-# install.packages("remotes")
-remotes::install_github("poissonconsulting/yesno")
-```
+    # install.packages("remotes")
+    remotes::install_github("poissonconsulting/yesno")
 
 ## Demonstration
 

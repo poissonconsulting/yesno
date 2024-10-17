@@ -47,7 +47,8 @@
   </div>
 </nav><div class="container template-home">
 <div class="row">
-  <main id="main" class="col-md-9"><div class="section level1">
+  <main id="main" class="col-md-9"><p><code>{r, echo = FALSE} knitr::opts_chunk$set(   collapse = TRUE,   comment = "#&gt;",   fig.path = "README-" )</code></p>
+<div class="section level1">
 <div class="page-header">
 <img src="logo.png" class="logo" alt=""><h1 id="yesno-">yesno <a class="anchor" aria-label="anchor" href="#yesno-"></a>
 </h1>
@@ -65,42 +66,37 @@
 <div class="section level2">
 <h2 id="installation">Installation<a class="anchor" aria-label="anchor" href="#installation"></a>
 </h2>
-<p>To install the latest release from <a href="https://cran.r-project.org" class="external-link">CRAN</a></p>
-<div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/utils/install.packages.html" class="external-link">install.packages</a></span><span class="op">(</span><span class="st">"yesno"</span><span class="op">)</span></span></code></pre></div>
-<p>To install the developmental version from <a href="https://github.com/poissonconsulting/yesno" class="external-link">GitHub</a></p>
-<div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="co"># install.packages("remotes")</span></span>
-<span><span class="fu">remotes</span><span class="fu">::</span><span class="fu">install_github</span><span class="op">(</span><span class="st">"poissonconsulting/yesno"</span><span class="op">)</span></span></code></pre></div>
+<p>To install the latest release from <a href="https://cran.r-project.org" class="external-link">CRAN</a> <code>{r, eval=FALSE} install.packages("yesno")</code></p>
+<p>To install the developmental version from <a href="https://github.com/poissonconsulting/yesno" class="external-link">GitHub</a> <code>{r, eval=FALSE} # install.packages("remotes") remotes::install_github("poissonconsulting/yesno")</code></p>
 </div>
 <div class="section level2">
 <h2 id="demonstration">Demonstration<a class="anchor" aria-label="anchor" href="#demonstration"></a>
 </h2>
-<div class="sourceCode" id="cb3"><pre class="sourceCode R"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" tabindex="-1"></a><span class="fu">yesno</span>(<span class="st">"Do you like "</span>, <span class="fu">R.Version</span>()<span class="sc">$</span>nickname ,<span class="st">"?"</span>)</span>
-<span id="cb3-2"><a href="#cb3-2" tabindex="-1"></a>Do you like Bug <span class="cf">in</span> Your Hair?</span>
-<span id="cb3-3"><a href="#cb3-3" tabindex="-1"></a><span class="dv">1</span><span class="sc">:</span> Definitely</span>
-<span id="cb3-4"><a href="#cb3-4" tabindex="-1"></a><span class="dv">2</span><span class="sc">:</span> No way</span>
-<span id="cb3-5"><a href="#cb3-5" tabindex="-1"></a><span class="dv">3</span><span class="sc">:</span> No</span>
-<span id="cb3-6"><a href="#cb3-6" tabindex="-1"></a></span>
-<span id="cb3-7"><a href="#cb3-7" tabindex="-1"></a>Selection<span class="sc">:</span> <span class="dv">1</span></span>
-<span id="cb3-8"><a href="#cb3-8" tabindex="-1"></a>[<span class="dv">1</span>] <span class="cn">TRUE</span></span>
-<span id="cb3-9"><a href="#cb3-9" tabindex="-1"></a></span>
-<span id="cb3-10"><a href="#cb3-10" tabindex="-1"></a><span class="fu">yesno</span>(<span class="st">"Do you like "</span>, <span class="fu">R.Version</span>()<span class="sc">$</span>nickname ,<span class="st">"?"</span>)</span>
-<span id="cb3-11"><a href="#cb3-11" tabindex="-1"></a>Do you like Bug <span class="cf">in</span> Your Hair?</span>
-<span id="cb3-12"><a href="#cb3-12" tabindex="-1"></a><span class="dv">1</span><span class="sc">:</span> No way</span>
-<span id="cb3-13"><a href="#cb3-13" tabindex="-1"></a><span class="dv">2</span><span class="sc">:</span> Uhhhh... Maybe?</span>
-<span id="cb3-14"><a href="#cb3-14" tabindex="-1"></a><span class="dv">3</span><span class="sc">:</span> I agree</span>
-<span id="cb3-15"><a href="#cb3-15" tabindex="-1"></a></span>
-<span id="cb3-16"><a href="#cb3-16" tabindex="-1"></a>Selection<span class="sc">:</span> <span class="dv">2</span></span>
-<span id="cb3-17"><a href="#cb3-17" tabindex="-1"></a>[<span class="dv">1</span>] <span class="cn">FALSE</span></span>
-<span id="cb3-18"><a href="#cb3-18" tabindex="-1"></a></span>
-<span id="cb3-19"><a href="#cb3-19" tabindex="-1"></a><span class="sc">&gt;</span> <span class="fu">yesno2</span>(<span class="st">"Do you like this question?"</span>, <span class="at">yes =</span> <span class="st">"I really do"</span>)</span>
-<span id="cb3-20"><a href="#cb3-20" tabindex="-1"></a>Do you like this question?</span>
-<span id="cb3-21"><a href="#cb3-21" tabindex="-1"></a><span class="dv">1</span><span class="sc">:</span> I really do</span>
-<span id="cb3-22"><a href="#cb3-22" tabindex="-1"></a><span class="dv">2</span><span class="sc">:</span> No</span>
-<span id="cb3-23"><a href="#cb3-23" tabindex="-1"></a></span>
-<span id="cb3-24"><a href="#cb3-24" tabindex="-1"></a>Selection<span class="sc">:</span> <span class="dv">1</span></span>
-<span id="cb3-25"><a href="#cb3-25" tabindex="-1"></a>[<span class="dv">1</span>] <span class="cn">TRUE</span></span></code></pre></div>
+<pre><code>yesno("Do you like ", R.Version()$nickname ,"?")
+Do you like Bug in Your Hair?
+1: Definitely
+2: No way
+3: No
+
+Selection: 1
+[1] TRUE
+
+yesno("Do you like ", R.Version()$nickname ,"?")
+Do you like Bug in Your Hair?
+1: No way
+2: Uhhhh... Maybe?
+3: I agree
+
+Selection: 2
+[1] FALSE
+
+&gt; yesno2("Do you like this question?", yes = "I really do")
+Do you like this question?
+1: I really do
+2: No
+
+Selection: 1
+[1] TRUE</code></pre>
 </div>
 <div class="section level2">
 <h2 id="contribution">Contribution<a class="anchor" aria-label="anchor" href="#contribution"></a>
@@ -114,6 +110,7 @@
 <p>Please note that the yesno project is released with a <a href="https://poissonconsulting.github.io/yesno/CODE_OF_CONDUCT.html">Contributor Code of Conduct</a>. By contributing to this project, you agree to abide by its terms.</p>
 </div>
 </div>
+
   </main><aside class="col-md-3"><div class="links">
 <h2 data-toc-skip>Links</h2>
 <ul class="list-unstyled">
@@ -162,7 +159,7 @@
 <li><a href="https://lifecycle.r-lib.org/articles/stages.html#stable" class="external-link"><img src="https://img.shields.io/badge/lifecycle-stable-brightgreen.svg" alt="Lifecycle: stable"></a></li>
 <li><a href="https://github.com/poissonconsulting/yesno/actions/workflows/R-CMD-check.yaml" class="external-link"><img src="https://github.com/poissonconsulting/yesno/actions/workflows/R-CMD-check.yaml/badge.svg" alt="R-CMD-check"></a></li>
 <li><a href="https://app.codecov.io/gh/poissonconsulting/yesno" class="external-link"><img src="https://codecov.io/gh/poissonconsulting/yesno/graph/badge.svg" alt="Codecov test coverage"></a></li>
-<li><a href="https://opensource.org/licenses/MIT" class="external-link"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"></a></li>
+<li><a href="https://opensource.org/license/mit/" class="external-link"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"></a></li>
 <li><a href="https://cran.r-project.org/package=yesno" class="external-link"><img src="https://www.r-pkg.org/badges/version/yesno" alt="CRAN status"></a></li>
 </ul>
 </div>
@@ -176,7 +173,7 @@
 </div>
 
 <div class="pkgdown-footer-right">
-  <p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.1.0.</p>
+  <p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.1.1.</p>
 </div>
 
     </footer>

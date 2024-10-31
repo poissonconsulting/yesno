@@ -2,7 +2,7 @@ pandoc: 3.1.11
 pkgdown: 2.1.1.9000
 pkgdown_sha: 09588af3fedb96db3736401949ce244559ebde17
 articles: {}
-last_built: 2024-10-31T00:13Z
+last_built: 2024-10-31T17:52Z
 urls:
   reference: https://poissonconsulting.github.io/yesno/reference
   article: https://poissonconsulting.github.io/yesno/articles

@@ -10,7 +10,7 @@ stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://
 [![Codecov test
 coverage](https://codecov.io/gh/poissonconsulting/yesno/graph/badge.svg)](https://app.codecov.io/gh/poissonconsulting/yesno)
 [![License:
-MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/license/mit/)
 [![CRAN
 status](https://www.r-pkg.org/badges/version/yesno)](https://cran.r-project.org/package=yesno)
 ![CRAN downloads](https://cranlogs.r-pkg.org/badges/yesno)

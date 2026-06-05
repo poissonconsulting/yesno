@@ -9,7 +9,9 @@ Authors@R: c(
     person("Kirill", "Müller", role = "aut",
            comment = c(ORCID = "0000-0002-1416-3412")),
     person("Hadley", "Wickham", , "hadley@rstudio.com", role = c("aut", "cph"),
-           comment = c(ORCID = "0000-0003-4757-117X"))
+           comment = c(ORCID = "0000-0003-4757-117X")),
+    person("Nadine", "Hussein", role = "ctb",
+           comment = c(ORCID = "0000-0003-4470-8361"))
   )
 Description: Asks Yes-No questions with variable or custom responses.
 License: MIT + file LICENSE

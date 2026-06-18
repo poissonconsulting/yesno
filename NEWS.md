@@ -1,3 +1,25 @@
+<!-- NEWS.md is maintained by https://cynkra.github.io/fledge, do not edit -->
+
+# yesno 0.1.3.9001
+
+* Add fledge-bump workflow
+* Add fledge-tag-on-merge workflow
+* ci: Use workflows for fledge
+* ci: Review env vers when installing, more careful foreign runs, format with `clang-format`
+* ci: Sync
+* ci: Sync
+* ci: Need to install R on Ubuntu 24.04
+* ci: Need to install R on Ubuntu 24.04 for fledge
+* ci: Use Ubuntu 24.04 and styler PR
+* ci: Use Ubuntu 24.04 for fledge, squash
+* ci: Trigger run
+* ci: Latest changes
+* ci: Use pkgdown branch
+* ci: Updates from duckdb
+* ci: Install via R CMD INSTALL ., not pak
+* ci: Bump version of upload-artifact action
+
+
 # yesno (development version)
 
 <!-- NEWS.md is maintained by https://fledge.cynkra.com, contributors should not edit this file -->

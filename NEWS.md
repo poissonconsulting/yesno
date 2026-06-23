@@ -1,5 +1,10 @@
 <!-- NEWS.md is maintained by https://cynkra.github.io/fledge, do not edit -->
 
+# yesno 0.1.3.9003
+
+- Same as previous version.
+
+
 # yesno 0.1.3.9002
 
 - Same as previous version.

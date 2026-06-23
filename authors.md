@@ -19,12 +19,12 @@ Source:
 [`DESCRIPTION`](https://github.com/poissonconsulting/yesno/blob/main/DESCRIPTION)
 
 Thorley J, Wickham H (2026). *yesno: Ask Yes-No Questions*. R package
-version 0.1.3.9000, <https://github.com/poissonconsulting/yesno>.
+version 0.1.3.9002, <https://github.com/poissonconsulting/yesno>.
 
     @Manual{,
       title = {yesno: Ask Yes-No Questions},
       author = {Joe Thorley and Hadley Wickham},
       year = {2026},
-      note = {R package version 0.1.3.9000},
+      note = {R package version 0.1.3.9002},
       url = {https://github.com/poissonconsulting/yesno},
     }

@@ -34,8 +34,13 @@
 #' }
 yesno <- function(...) {
   yeses <- c(
-    "Yes", "Definitely", "For sure", "Yup", "Yeah",
-    "I agree", "Absolutely"
+    "Yes",
+    "Definitely",
+    "For sure",
+    "Yup",
+    "Yeah",
+    "I agree",
+    "Absolutely"
   )
   nos <- c("No way", "Not yet", "I forget", "No", "Nope", "Uhhhh... Maybe?")
 

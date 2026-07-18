@@ -23,17 +23,23 @@
 #' yesno2("Do you like this question?", yes = "I really do")
 #' }
 yesno2 <- function(..., yes = "Yes", no = "No") {
-  if (!(is.character(yes) && identical(length(yes), 1L)) &&
-    isTRUE(!is.na(yes))) {
+  if (
+    !(is.character(yes) && identical(length(yes), 1L)) &&
+      isTRUE(!is.na(yes))
+  ) {
     stop("yes must be a string", call. = FALSE)
   }
-  if (!(is.character(no) && identical(length(no), 1L)) &&
-    isTRUE(!is.na(no))) {
+  if (
+    !(is.character(no) && identical(length(no), 1L)) &&
+      isTRUE(!is.na(no))
+  ) {
     stop("no must be a string", call. = FALSE)
   }
 
   cat(paste0(..., collapse = ""))
   response <- utils::menu(c(yes, no))
-  if (response == 0) stop("user choose to exit")
+  if (response == 0) {
+    stop("user choose to exit")
+  }
   response == 1
 }
